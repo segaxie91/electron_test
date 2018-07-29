@@ -89,6 +89,11 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-hot-loader": "^4.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
     "source-map-support": "^0.5.6"
   },
   "devDependencies": {
@@ -128,6 +133,7 @@
     "flow-bin": "^0.72.0",
     "flow-runtime": "^0.17.0",
     "flow-typed": "^2.4.0",
+    "redux-logger": "^3.0.6",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
