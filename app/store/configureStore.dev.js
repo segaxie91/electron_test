@@ -1,4 +1,5 @@
-import { createStore, appliMiddleware, compose, applyMiddleware } from 'redux';
+// @flow
+import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { createHashHistory } from 'history';
 import { routerMiddleware, routerActions } from 'react-router-redux';
@@ -53,6 +54,7 @@ const configureStore = (initialState?: counterStateType) => {
   }
 
   return store;
-}
+};
 
-export default { configureStore, history };
+export { configureStore, history };
+
