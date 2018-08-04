@@ -45,6 +45,7 @@ app/style.css
 app/style.css.map
 main.js
 main.js.map
+yarn.lock
 
 .idea
 npm-debug.log.*
